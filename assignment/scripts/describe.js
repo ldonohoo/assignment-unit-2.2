@@ -197,29 +197,6 @@ if(minAge <= age) {
 }
 */
 
-// So, I had a hard time expanding on this lesson so I decided to look at 
-// the mystery apparatus that was testing the code in 2.1 and see
-// if I could at least partially understand it.
 
-// It looks like the tests are run through mocha, which is a free? open source? 
-// testing framework for node.js.  It looks like there's a chai module pulled
-// in, maybe to make the expect parts have a nice, readable format??
-
-// Reporter.js looks like it's custom formatting for the tests that mocha must 
-// pull in via the exported class/module MyReporter
-
-// Test.js looks like its largely tests written with describe-it  
-// where 'describe' is a real-language description of what category/group
-// being tested and the 'it' is the actual tests being listed
-
-// looks like the last change was made by Dane and he added a test for 
-// the last STRETCH goal which looks like the goal existed, but 
-// the didn't have a test yet?  And I saw in gitHub two
-// open issues one to make the tests look for a match instead of exact
-// strings with punctuation- super cool I've never looked into stuff
-// in gitHub like this!
-
-// Anyhow that test stuff is super cool, I installed mocha so i could play 
-// with it 
 
 // text for pull test
